@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Tankespringor</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Tankespringor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv</language>
+    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bergman</title>
+      <link>/categories/bergman/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/categories/bergman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demokrati</title>
+      <link>/categories/demokrati/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/categories/demokrati/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Film</title>
+      <link>/categories/film/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/categories/film/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Filosofi</title>
+      <link>/categories/filosofi/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/categories/filosofi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Konst</title>
+      <link>/categories/konst/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/categories/konst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>de Beauvoir</title>
+      <link>/categories/de-beauvoir/</link>
+      <pubDate>Tue, 19 May 2020 02:42:48 +0200</pubDate>
+      
+      <guid>/categories/de-beauvoir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Litteratur</title>
+      <link>/categories/litteratur/</link>
+      <pubDate>Tue, 19 May 2020 02:42:48 +0200</pubDate>
+      
+      <guid>/categories/litteratur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>日本語</title>
+      <link>/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/</link>
+      <pubDate>Wed, 30 Aug 2017 01:53:34 +0800</pubDate>
+      
+      <guid>/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

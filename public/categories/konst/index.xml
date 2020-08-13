@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Konst on Tankespringor</title>
+    <link>/categories/konst/</link>
+    <description>Recent content in Konst on Tankespringor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv</language>
+    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/categories/konst/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Att skapa överskott</title>
+      <link>/post/new-post/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/post/new-post/</guid>
+      <description>Dokumentären om Gun Bergman väckte tankar hos mig om manligt och kvinnligt och om Bergman som person. Det i sin tur knyter an till fredagspanelens samtal om männens fall och att vissa män har ett starkt behov av att skapa överskott, men ”klarar inte” att omhänderta utan kastar över det på kvinnorna. Men dessa mäns skaparkraft för å andra sidan ofta mänskligheten framåt även om de må bete sig som svin i den närmaste kretsen.</description>
+    </item>
+    
+  </channel>
+</rss>
