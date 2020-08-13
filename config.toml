@@ -1,7 +1,7 @@
-baseURL = "https://www.tankespringor.se/"
+baseURL = "https://www.nalkas.nu/"
 languageCode = "sv"
 defaultContentLanguage = "sv"                             # en / zh-cn / ... (This field determines which i18n file to use)
-title = "Tankespringor"
+title = "Nalkas"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
