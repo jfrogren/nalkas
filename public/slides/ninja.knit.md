@@ -1,62 +1,32 @@
 ---
 title: "Half-time review"
-subtitle: "⚔<br/>for my doctoral studies"
+subtitle: "<br/>for my doctoral studies"
 author: "Joakim Frögren"
 institute: "Department of Health Sciences, Lund University"
 date: "2020/08/27"
 output:
   xaringan::moon_reader:
+    yolo: true
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
----
-
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
-
-
-
-???
-
-Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
+      titleSlideClass: [top, left, inverse]
 
 ---
-class: center, middle
-
-# xaringan
-
-### /ʃaː.'riŋ.ɡan/
-
----
-class: inverse, center, middle
-
-# Get Started
-
----
+background-image: url(https://github.com/yihui/xaringan/releases/download/v0.0.2/karl-moustache.jpg)
+background-position: 25% 75%
+class: center, center, inverse
 
 # My supervisors
 
 Here I will write about my supervisors. I am trying now.  
 
---
-
-You are recommended to use the [RStudio IDE](https://www.rstudio.com/products/rstudio/), but you do not have to.
-
-- Create a new R Markdown document from the menu `File -> New File -> R Markdown -> From Template -> Ninja Presentation`;<sup>1</sup>
-
---
-
-- Click the `Knit` button to compile it;
-
---
-
-- or use the [RStudio Addin](https://rstudio.github.io/rstudioaddins/)<sup>2</sup> "Infinite Moon Reader" to live preview the slides (every time you update and save the Rmd document, the slides will be automatically reloaded in RStudio Viewer.
-
 .footnote[
-[1] 中文用户请看[这份教程](http://slides.yihui.org/xaringan/zh-CN.html)
+[1] 中(http://slides.yihui.org/xaringan/zh-CN.html)
 
-[2] See [#2](https://github.com/yihui/xaringan/issues/2) if you do not see the template or addin in RStudio.
+[2] See [#2](https://www.noamross.net/) if...
 ]
 
 ---
@@ -307,8 +277,8 @@ library(leaflet)
 leaflet() %>% addTiles() %>% setView(-93.65, 42.0285, zoom = 17)
 ```
 
-<!--html_preserve--><div id="htmlwidget-392c376b45af74a3a09e" style="width:100%;height:432px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-392c376b45af74a3a09e">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[42.0285,-93.65],17,[]]},"evals":[],"jsHooks":[]}</script><!--/html_preserve-->
+<!--html_preserve--><div id="htmlwidget-4925086393ae9d5f255c" style="width:100%;height:432px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-4925086393ae9d5f255c">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[42.0285,-93.65],17,[]]},"evals":[],"jsHooks":[]}</script><!--/html_preserve-->
 
 ---
 
@@ -320,8 +290,8 @@ DT::datatable(
 )
 ```
 
-<!--html_preserve--><div id="htmlwidget-6725b63ccdd36b083366" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-6725b63ccdd36b083366">{"x":{"filter":"none","fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script><!--/html_preserve-->
+<!--html_preserve--><div id="htmlwidget-322e02fdb79cef25f24c" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-322e02fdb79cef25f24c">{"x":{"filter":"none","fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script><!--/html_preserve-->
 
 ---
 

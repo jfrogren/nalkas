@@ -1,74 +1,44 @@
 ---
 title: "Half-time review"
-subtitle: "⚔<br/>for my doctoral studies"
+subtitle: "<br/>for my doctoral studies"
 author: "Joakim Frögren"
 institute: "Department of Health Sciences, Lund University"
 date: "2020/08/27"
 output:
   xaringan::moon_reader:
-    yolo: true
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
       titleSlideClass: [top, left, inverse]
----
-
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
-
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-```
-
-???
-
-Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
-
----
-class: center, middle
-
-# xaringan
-
-### /ʃaː.'riŋ.ɡan/
-
----
-class: inverse, center, middle
-
-# Get Started
 
 ---
 
-# My supervisors
+# My PhD project
 
-Here I will write about my supervisors. I am trying now.  
+Title: Involving citizens and professionals in research on ageing and health
 
 --
 
-You are recommended to use the [RStudio IDE](https://www.rstudio.com/products/rstudio/), but you do not have to.
+- Main supervisor: Prof. Susanne Iwarsson [1],
+- Co-supervisors: Assoc. Researcher Oskar Jonsson1^; Hon. Prof. Roderick Lawrence^2^
 
-- Create a new R Markdown document from the menu `File -> New File -> R Markdown -> From Template -> Ninja Presentation`;<sup>1</sup>
-
---
-
-- Click the `Knit` button to compile it;
-
---
-
-- or use the [RStudio Addin](https://rstudio.github.io/rstudioaddins/)<sup>2</sup> "Infinite Moon Reader" to live preview the slides (every time you update and save the Rmd document, the slides will be automatically reloaded in RStudio Viewer.
 
 .footnote[
-[1] 中文用户请看[这份教程](http://slides.yihui.org/xaringan/zh-CN.html)
+[1] [Department of Health Sciences, Lund University](http://slides.yihui.org/xaringan/zh-CN.html)
 
-[2] See [#2](https://github.com/yihui/xaringan/issues/2) if you do not see the template or addin in RStudio.
+[2] [University of Geneva, Geneva School of Social Sciences (G3S); Institute for Environmental Sciences (ISE) Geneva, Switzerland](https://www.noamross.net/)
 ]
 
 ---
-background-image: url(`r xaringan:::karl`)
-background-position: 50% 50%
-class: center, bottom, inverse
 
-# You only live once!
+# Reviewers
+
+- Lena Rosenberg, Assistant Professor, at Karolinska Institute, Dept of Neurobiology, Care Sciences and Society, Occupational Therapy
+- Ewa Wikström, Professor at the University of Gothenburg, Dept of Business Administration, School of Business, Economics and Law
+
+
 
 ---
 
