@@ -6,16 +6,30 @@ institute: "Department of Health Sciences, Lund University"
 date: "2020-08-27"
 output:
   xaringan::moon_reader:
-    seal: true
+    seal: false
     lib_dir: libs
-    css: [default, default-fonts, title-slide.css, cols.css]
+    css: [default, default-fonts, title-slide.css, cols.css, center.css]
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-      titleSlideClass: [left, inverse]
-      ratio: '16:10'
+      titleSlideClass: [inverse, left, middle]
+      ratio: '16:9'
       beforeInit: ["macros.js", "cols_macro.js"]
+
+
+---
+
+class: inverse, left, middle, title-slide
+
+# Half-time review
+## for my doctoral studies 
+### Joakim Frögren
+### Department of Health Sciences, Lund University
+### 2020-08-27
+
+<img src="images/case-logo-neg.png" width="170px"/>
+
 
 ---
 
@@ -23,9 +37,9 @@ output:
 <!-- Här skulle jag kunna lägga in bilder på dem -->
 
 ![:col_header Main supervisor, Co-supervisor, Co-supervisor]
-![:col_row <img src="images/susanne.png" class="center" height=""/>,
+![:col_row <img src="images/susanne.png" class="center" height="200"/>,
 <img src="images/oskar.png" class="center" height="200"/>, <img src="images/r-lawrence.png" class="center" height="200"/>]
-![:col_row <p class="center" <b>Professor Susanne Iwarsson</b><sup>1</sup> </p>, <p classe=center <b>Assoc. Researcher Oskar Jonsson</b><sup>1</sup></p>, <p <b>Hon. Prof. Roderick Lawrence</b><sup>2</sup></p>]
+![:col_row <p style="text-align:center"; <b>Professor <b>Susanne Iwarsson</b><sup>1</sup> </p>, <p style="text-align:center"; <b>Assoc. Researcher <b>Oskar Jonsson</b><sup>1</sup></p>, <p style="text-align:center"; <b>Hon. Prof. <b>Roderick Lawrence</b><sup>2</sup></p>]
 
 
 .footnote[
@@ -33,10 +47,14 @@ output:
 
 [2] University of Geneva, Geneva School of Social Sciences (G3S);<br>Institute for Environmental Sciences (ISE) Geneva, Switzerland
 ]
----
+
+???
+
+<!--
+
 
 # Reviewers
-<!-- Här skulle jag kunna lägga in bilder på dem -->
+<!-- Här skulle jag kunna lägga in bilder på dem
 * Assistant Professor __Lena Rosenberg__<sup>1</sup>
 
 * Professor __Ewa Wikström__<sup>2</sup>
@@ -50,15 +68,20 @@ output:
 
 ???
 
+-->
 ---
 
 My PhD project:
 # Involving citizens and professionals<br>in research on ageing and health
 
-Overarching aim:
-* The overarching aim of this PhD project is to increase the understanding of the involvement of
-professionals and citizens in research on ageing and health; how such efforts are perceived and how professional know-how and citizens’ ways of knowing could contribute to the knowledge development in research on ageing and health. 
-* An additional overarching ambition is to gain insights of the potential and pitfalls of various participatory approaches and thereby contribute to the methodological development in the field.
+**Overarching aim**:
+* The overarching aim is to increase the understanding of the involvement<br>of
+professionals and citizens in research on ageing and health; 
+
+  + how such efforts are perceived;
+  + how professional know-how and citizens’ ways of knowing could contribute<br>to the knowledge development in research on ageing and health. 
+
+* An additional overarching ambition is to gain insights of the potential and pitfalls<br>of various participatory approaches and thereby contribute to the methodological development in the field.
 
 ---
 

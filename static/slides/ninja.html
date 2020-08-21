@@ -26,27 +26,32 @@
     <script src="libs/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
     <link rel="stylesheet" href="title-slide.css" type="text/css" />
     <link rel="stylesheet" href="cols.css" type="text/css" />
+    <link rel="stylesheet" href="center.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
-class: left, inverse, title-slide
+
+
+class: inverse, left, middle, title-slide
 
 # Half-time review
-## for my doctoral studies
+## for my doctoral studies 
 ### Joakim Frögren
 ### Department of Health Sciences, Lund University
 ### 2020-08-27
 
----
+&lt;img src="images/case-logo-neg.png" width="170px"/&gt;
 
+
+---
 
 # Supervisors
 &lt;!-- Här skulle jag kunna lägga in bilder på dem --&gt;
 
 ![:col_header Main supervisor, Co-supervisor, Co-supervisor]
-![:col_row &lt;img src="images/susanne.png" class="center" height=""/&gt;,
+![:col_row &lt;img src="images/susanne.png" class="center" height="200"/&gt;,
 &lt;img src="images/oskar.png" class="center" height="200"/&gt;, &lt;img src="images/r-lawrence.png" class="center" height="200"/&gt;]
-![:col_row &lt;p class="center" &lt;b&gt;Professor Susanne Iwarsson&lt;/b&gt;&lt;sup&gt;1&lt;/sup&gt; &lt;/p&gt;, &lt;p classe=center &lt;b&gt;Assoc. Researcher Oskar Jonsson&lt;/b&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;, &lt;p &lt;b&gt;Hon. Prof. Roderick Lawrence&lt;/b&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;]
+![:col_row &lt;p style="text-align:center"; &lt;b&gt;Professor &lt;b&gt;Susanne Iwarsson&lt;/b&gt;&lt;sup&gt;1&lt;/sup&gt; &lt;/p&gt;, &lt;p style="text-align:center"; &lt;b&gt;Assoc. Researcher &lt;b&gt;Oskar Jonsson&lt;/b&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;, &lt;p style="text-align:center"; &lt;b&gt;Hon. Prof. &lt;b&gt;Roderick Lawrence&lt;/b&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;]
 
 
 .footnote[
@@ -54,10 +59,14 @@ class: left, inverse, title-slide
 
 [2] University of Geneva, Geneva School of Social Sciences (G3S);&lt;br&gt;Institute for Environmental Sciences (ISE) Geneva, Switzerland
 ]
----
+
+???
+
+&lt;!--
+
 
 # Reviewers
-&lt;!-- Här skulle jag kunna lägga in bilder på dem --&gt;
+&lt;!-- Här skulle jag kunna lägga in bilder på dem
 * Assistant Professor __Lena Rosenberg__&lt;sup&gt;1&lt;/sup&gt;
 
 * Professor __Ewa Wikström__&lt;sup&gt;2&lt;/sup&gt;
@@ -71,15 +80,20 @@ class: left, inverse, title-slide
 
 ???
 
+--&gt;
 ---
 
 My PhD project:
 # Involving citizens and professionals&lt;br&gt;in research on ageing and health
 
-Overarching aim:
-* The overarching aim of this PhD project is to increase the understanding of the involvement of
-professionals and citizens in research on ageing and health; how such efforts are perceived and how professional know-how and citizens’ ways of knowing could contribute to the knowledge development in research on ageing and health. 
-* An additional overarching ambition is to gain insights of the potential and pitfalls of various participatory approaches and thereby contribute to the methodological development in the field.
+**Overarching aim**:
+* The overarching aim is to increase the understanding of the involvement&lt;br&gt;of
+professionals and citizens in research on ageing and health; 
+
+  + how such efforts are perceived;
+  + how professional know-how and citizens’ ways of knowing could contribute&lt;br&gt;to the knowledge development in research on ageing and health. 
+
+* An additional overarching ambition is to gain insights of the potential and pitfalls&lt;br&gt;of various participatory approaches and thereby contribute to the methodological development in the field.
 
 ---
 
@@ -400,8 +414,8 @@ library(leaflet)
 leaflet() %&gt;% addTiles() %&gt;% setView(-93.65, 42.0285, zoom = 17)
 ```
 
-<div id="htmlwidget-f4aa8f00d13d8d1f2727" style="width:100%;height:432px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-f4aa8f00d13d8d1f2727">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[42.0285,-93.65],17,[]]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-ebaab4404b1f96597d76" style="width:100%;height:432px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-ebaab4404b1f96597d76">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[42.0285,-93.65],17,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 
@@ -413,8 +427,8 @@ DT::datatable(
 )
 ```
 
-<div id="htmlwidget-9685b924f4cc3dfb9e1a" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-9685b924f4cc3dfb9e1a">{"x":{"filter":"none","fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-e72ca7aa40313e3bb6f3" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e72ca7aa40313e3bb6f3">{"x":{"filter":"none","fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 
 ---
 
@@ -814,7 +828,7 @@ The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihu
 "highlightStyle": "github",
 "highlightLines": true,
 "countIncrementalSlides": false,
-"ratio": "16:10"
+"ratio": "16:9"
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));

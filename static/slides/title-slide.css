@@ -1,16 +1,26 @@
 .title-slide {
-background-image: url(images/case-logo-neg.png);
-background-size: 20%;
-background-position: 9% 91%;
-}
+  background-image: url(images/universitetshuset.png);
+  background-size: cover;
+  }
 
-.title-slide h1, h2, h3 {}
+
+/*
+  content:url(images/case-logo-neg.png);
+  background-size: 20%;
+  background-position: 9% 91%;
+  background-image: url("Rlogo.png");
+}
+*/
+
+.title-slide h1, h2, h3 {
+}
 
 
 .title-slide .remark-slide-number {
   display: none;
 }
 
+/*
 div.my-footer {
 content: "";
     position: absolute;
@@ -20,9 +30,9 @@ content: "";
     width: 120px;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("");
+    background-image: url("images/case-logo-neg.png");
 }
-
+*/
 
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
@@ -35,3 +45,6 @@ h1, h2, h3 {
   font-weight: normal;
 }
 .remark-code, .remark-inline-code { font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace; }
+background-image: url(images/universitetshuset.png)
+background-size: cover
+
