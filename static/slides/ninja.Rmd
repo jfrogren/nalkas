@@ -55,8 +55,10 @@ output:
 My PhD project:
 # Involving citizens and professionals<br>in research on ageing and health
 
-Aim:
-* 
+Overarching aim:
+* The overarching aim of this PhD project is to increase the understanding of the involvement of
+professionals and citizens in research on ageing and health; how such efforts are perceived and how professional know-how and citizens’ ways of knowing could contribute to the knowledge development in research on ageing and health. 
+* An additional overarching ambition is to gain insights of the potential and pitfalls of various participatory approaches and thereby contribute to the methodological development in the field.
 
 ---
 
