@@ -104,12 +104,8 @@ Photo: Erik Skogh
 ### However, not either or but <br>rather a <a class="grey-fade"> grey scale </a>
 <img src="images/000000.png" width="410px"/>
 <img src="images/greyscale.png" width="410px"/>
-
-
 ]
 
- 
---
 
 ???
 
