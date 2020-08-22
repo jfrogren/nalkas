@@ -92,11 +92,24 @@ class: inverse, center, middle
 
 # What does to *involve* someone in research mean?
 
-* Actively part of the process, not just a study object
+.pull-left[
+### Participant actively part of the process,<br>not just a study object
+![Brukarmöte](images/brukarmote.png)
+Photo: Erik Skogh
+]
 
 --
 
-* Not _either or_ but rather a <a class="grey-fade"> grey scale </a>
+.pull-right[
+### However, not either or but <br>rather a <a class="grey-fade"> grey scale </a>
+<img src="images/000000.png" width="410px"/>
+<img src="images/greyscale.png" width="410px"/>
+
+
+]
+
+ 
+--
 
 ???
 
@@ -106,7 +119,26 @@ class: inverse, center, middle
 
 ---
 
-# Arnstein's '*Ladder of participation*' influential
+# Arnstein's *Ladder of participation*<sup>1</sup> influential
+<img src="images/arnstein.png" width="380px"/>
+
+[1] Figure from Arnstein, S. R. (1969). A ladder of citizen participation. *Journal of the
+  American Institute of Planners**, 35(4), p. 217-224. <http://doi.org/10.1080/01944366908977225>
+
+???
+
+address public participation in
+government decision making.
+
+---
+
+# Bammer's spectrum<sup>1</sup> one recent example
+<img src="images/bammer.png" width="670"/>
+
+[1] Figure from Bammer, G. (2019). Key issues in co-creation with stakeholders when research
+  problems are complex. *Evidence & Policy*, 15(3), 423–435.
+  http://doi.org/10.1332/174426419X15532579188099
+
 
 ---
 
