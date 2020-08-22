@@ -8,16 +8,15 @@ output:
   xaringan::moon_reader:
     seal: false
     lib_dir: libs
-    css: [default, default-fonts, title-slide.css, cols.css, center.css]
+    css: [default, default-fonts, title-slide.css, cols.css, center.css, grey-fade.css]
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
       titleSlideClass: [inverse, left, middle]
-      ratio: '16:9'
+      ratio: '16:10'
       beforeInit: ["macros.js", "cols_macro.js"]
-
-
+      
 ---
 
 class: inverse, left, middle, title-slide
@@ -85,9 +84,47 @@ professionals and citizens in research on ageing and health;
 
 ---
 
-# Background
+class: inverse, center, middle
 
+# What does to *involve* someone in research mean? 
 
+---
+
+# What does to *involve* someone in research mean?
+
+* Actively part of the process, not just a study object
+
+--
+
+* Not _either or_ but rather a <a class="grey-fade"> grey scale </a>
+
+???
+
+* The there is an outspoken aim that the person engaged in research should be <br>actively part of (and thus able to influence) the process  of conducting research, <br>not just a passive object being studied by the researcher(s).
+
+* Rather than either or it is a grey scale where it is difficult to draw the exact boundary of where someone is actively participating in a research process.
+
+---
+
+# Arnstein's '*Ladder of participation*' influential
+
+---
+
+# Why involve citizens and professionals in research?
+
+--
+### 1. Public Administration/ Democracy
+
+* Who gets to decide...
+* 
+--
+
+### 2. Production/ Innovation
+
+* 
+*
+
+---
 
 ???
 ## Why involve citizens and professionals in research?
