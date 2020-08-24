@@ -8,7 +8,7 @@ output:
   xaringan::moon_reader:
     seal: false
     lib_dir: libs
-    css: [default, default-fonts, title-slide.css, cols.css, center.css, grey-fade.css]
+    css: [default, default-fonts, title-slide.css, cols.css, center.css, grey-fade.css, header-footer.css, navy-slide.css]
     nature:
       highlightStyle: github
       highlightLines: true
@@ -38,14 +38,11 @@ class: inverse, left, middle, title-slide
 ![:col_header Main supervisor, Co-supervisor, Co-supervisor]
 ![:col_row <img src="images/susanne.png" class="center" height="200"/>,
 <img src="images/oskar.png" class="center" height="200"/>, <img src="images/r-lawrence.png" class="center" height="200"/>]
-![:col_row <p style="text-align:center"; <b>Professor <b>Susanne Iwarsson</b><sup>1</sup> </p>, <p style="text-align:center"; <b>Assoc. Researcher <b>Oskar Jonsson</b><sup>1</sup></p>, <p style="text-align:center"; <b>Hon. Prof. <b>Roderick Lawrence</b><sup>2</sup></p>]
+![:col_row <p style="text-align:center; font-size:110%"; <b>Professor <b>Susanne Iwarsson</b><sup>1</sup> </p>, <p style="text-align:center; font-size:110%"; <b>Assoc. Researcher <b>Oskar Jonsson</b><sup>1</sup></p>, <p style="text-align:center; font-size:110%"; <b>Hon. Prof. <b>Roderick Lawrence</b><sup>2</sup></p>]
 
 
-.footnote[
-[1] Department of Health Sciences, Lund University
-
-[2] University of Geneva, Geneva School of Social Sciences (G3S);<br>Institute for Environmental Sciences (ISE) Geneva, Switzerland
-]
+<div class="my-footer"><span>
+[1] Department of Health Sciences, Lund University<p style="text-align:center">[2] University of Geneva, Geneva School of Social Sciences (G3S); Institute for Environmental Sciences (ISE) Geneva, Switzerland</p></span></div>
 
 ???
 
@@ -84,26 +81,30 @@ professionals and citizens in research on ageing and health;
 
 ---
 
-class: inverse, center, middle
+class: inverse, center, middle, navy-slide
 
 # What does to *involve* someone in research mean? 
 
 ---
 
-# What does to *involve* someone in research mean?
+# To *involve* someone in research means...
+
+--
 
 .pull-left[
-### Participant actively part of the process,<br>not just a study object
-![Brukarmöte](images/brukarmote.png)
-Photo: Erik Skogh
+
+### that the participant is actively part of the process, not just a study object
+
+<img src="images/brukarmote.png" width="400px">
+
 ]
 
 --
 
 .pull-right[
 ### However, not either or but <br>rather a <a class="grey-fade"> grey scale </a>
-<img src="images/000000.png" width="410px"/>
-<img src="images/greyscale.png" width="410px"/>
+<img src="images/000000.png" width="380px"/>
+<img src="images/greyscale.png" width="380px"/>
 ]
 
 
@@ -118,9 +119,9 @@ Photo: Erik Skogh
 # Arnstein's *Ladder of participation*<sup>1</sup> influential
 <img src="images/arnstein.png" width="380px"/>
 
-[1] Figure from Arnstein, S. R. (1969). A ladder of citizen participation. *Journal of the
-  American Institute of Planners**, 35(4), p. 217-224. <http://doi.org/10.1080/01944366908977225>
-
+<div class="my-footer"><span>
+<p style="font-size:90%;">[1] Fig. from Arnstein, S. R. (1969). A ladder of citizen participation. <i>Journal of the American Institute of Planners</i>, 35(4), p. 217-224. <a href=http://doi.org/10.1080/01944366908977225>doi.org/10.1080/01944366908977225</a></font></p>
+</span></div>
 ???
 
 address public participation in
@@ -131,30 +132,95 @@ government decision making.
 # Bammer's spectrum<sup>1</sup> one recent example
 <img src="images/bammer.png" width="670"/>
 
-[1] Figure from Bammer, G. (2019). Key issues in co-creation with stakeholders when research
-  problems are complex. *Evidence & Policy*, 15(3), 423–435.
-  http://doi.org/10.1332/174426419X15532579188099
 
-
+<div class="my-footer"><span>
+<p style="font-size:90%;">[1] Fig. from Bammer, G. (2019). Key issues in co-creation with stakeholders when research problems are complex. <i>Evidence & Policy</i>, 15(3), p. 423–435.
+  <a href=http://doi.org/10.1332/174426419X15532579188099>doi.org/10.1332/174426419X15532579188099</a></font></p></span></div>
 ---
+
+class: inverse, center, middle, navy-slide
 
 # Why involve citizens and professionals in research?
 
+---
+
+# Involving citizens and professionals in research<br>has to do with...
+
+### I. Public Administration<sup>1</sup>/ Democracy
+
 --
-### 1. Public Administration/ Democracy
+To whom do we leave to...
+* describe the needs of older people?
+* decide on priorities in research and societal development?
 
-* Who gets to decide...
-* 
+.pull-left[
+<img src="images/manly-confusion.png" width="350" class="center"/>
+]
+.pull-right[]
+
+<div class="my-footer"><span>
+<p style="font-size:90%;">[1] Hronszky, I. (2005). <i>Parallelities in participatory approaches in production and public administration</i>.<br>In H. Rohracher (Eds.), User Involvement in Innovation Processes (pp. 371–404). Profil.</font></p></span></div>
+
+---
+
+# Involving citizens and professionals in research<br>has to do with...
+
+### II. Production/ Innovation
+
 --
 
-### 2. Production/ Innovation
+#### Universities:
+* produce knowledge and innovations linked to 'real-world problems'
 
-* 
-*
+--
+
+#### Citizens and professionals:
+* facing 'real-world problems'
+* recruited as (potential) 'users' to provide feedback or co-create <br>the knowledge/ innovations being produced 
+
+--
+
+#### Complex 'real-world problems': 
+* typically ill-defined
+* 'wicked' in nature
+* require a plethora of perspectives, and thus collaborative efforts
+
+---
+
+class: inverse, center, middle, navy-slide
+
+# So... what is the knowledge gap?
+
+---
+
+# More knowledge needed related to...
+
+#### The power balance between researcher(s) and the participants actively involved
+* Risks of reproducing existing inequalities rather than addressing them (Buffel, 2015)
+* Potential for unjust exercises of power (Hickey & Mohan, 2004) 
+
+--
+
+#### The methods/methodologies to use in order to... 
+  + convert expressed concerns and ideas into proper research questions (Erdtman et al., 2012).
+  + appropriately recruit representatives (Gradinger et al., 2015)
+  + adequately involve users in data collection (Priestley et al., 2010) and in the analysis of
+the findings (Cotterell, 2008). 
+
+--
+
+####  And overall there is... 
+* a scarcity of studies about involving various user groups, including citizens and professionals, in ageing and health research
+(Kylberg et al., 2018).
 
 ---
 
 ???
+
+[1] See Demonaco, Harold et al. "When Patients Become Innovators."Managing Innovation in a Global and Digital World, edited by R.Tiwari R. and S. Buse, Springer, 2019, 121-129 © 2019 Springer https://hdl/handle/1721.1/123829
+
+[von Hippel, E. (2016). *Free innovation*. Boston: MIT Press.](https://library.oapen.org/handle/20.500.12657/26044)
+
 ## Why involve citizens and professionals in research?
 Based on two intertwined quest:
 The quest for democracy
